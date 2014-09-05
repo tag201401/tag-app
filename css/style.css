@@ -1,0 +1,85 @@
+#titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1em;
+    padding: 5px 0 0 0;
+}
+#banTitle {
+    max-width: 100%;
+    background: #fff;
+    height: auto;
+}
+#boxSearch {
+    max-width: 100%;
+    height: 255px;
+    background: url(../img/bg1.png) repeat top left #D9E021;
+}
+#boxSearch #buscar { max-width: 35em; margin: 42px auto; }
+#boxSearch #buscar p {
+    font-size: 1.75em;
+    line-height: 1em;
+    font-weight: 500;
+    text-align: center;
+    margin:0 auto 30px auto;
+}
+#boxSearch #buscar #labelSearch {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto 5px auto;
+}
+#boxSearch #buscar #search {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.15em;
+    line-height: 1.15em;
+    font-weight: 500;
+    color: #111;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+#boxTemas {
+    max-width: 100%;
+    height: 350px;
+    background: #fff;
+}
+#boxTemas #gridTemas {
+    max-width: 1150px;
+    height: 350px;
+    margin: 20px auto;
+    float: none;
+}
+#boxTemas #gridTemas .boxUniTemas { padding: 25px 0; }
+#boxTemas #gridTemas .borDer { border-right: dashed 1px rgba(0, 0, 0, 0.35); }
+#boxTemas #gridTemas h3 {
+    color: #F92672;
+    font-size: 1.3em;
+    line-height: 1.15em;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+}
+#boxTemas #gridTemas nav { margin: 15px 0 0 25px; } 
+#boxTemas #gridTemas nav a {
+    width: auto;
+    display: block;
+    margin: 0 0 0 5px;
+    padding: 10px 0 5px 0;
+    color: #111;
+    text-align: left;
+    float: none;
+    clear: both;
+    transition: all 0.3s ease-in;
+}
+#boxTemas #gridTemas nav a:before { content: "» "; }
+#boxTemas #gridTemas nav a:hover {
+    font-weight: 700;
+    margin: 0 0 0 10px;
+    transition: all 0.15s ease-out;
+}
+
+
+
+
